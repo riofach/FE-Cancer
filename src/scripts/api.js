@@ -1,5 +1,5 @@
-// TODO: Silakan sesuaikan BASE URL dari endpoint Anda
-const BASE_URL = 'YOUR_BASE_URL';
+// TODO: Silakan sesuaikan BASE URL dari endpoint Anda, misal external VM di GCP
+const BASE_URL = 'http://<IP>:<PORT>';
 
 const ENDPOINT = {
   predict: `${BASE_URL}/predict`,
